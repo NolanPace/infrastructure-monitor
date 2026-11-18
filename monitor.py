@@ -69,3 +69,4 @@ def load_targets(path:str|Path)->list[Target]:
         t=Target(**item)
         if not t.name or t.name in names:raise ValueError('Each target must have a unique nonempty name')
         names.add(t.name);targets.append(t)
+    return targets
