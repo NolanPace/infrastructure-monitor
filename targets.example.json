@@ -1,0 +1,4 @@
+[
+  {"name":"Python.org","url":"https://www.python.org","timeout_s":4},
+  {"name":"Example.com","url":"https://example.com","timeout_s":4}
+]
